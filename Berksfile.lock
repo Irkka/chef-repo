@@ -1,7 +1,15 @@
 DEPENDENCIES
   banners
-    git: https://github.com/Irkka/cookbook-banners.git
-    revision: c6ed6b1b04b08c552955b0b468320f686dc720ad
+    git: https://github.com/Irkka/fi-iruka-cookbooks.git
+    revision: 9a3068c431ea71791b71522e8553d4c6aa10ace9
+    rel: banners
+  utilities
+    git: https://github.com/Irkka/fi-iruka-cookbooks.git
+    revision: 9a3068c431ea71791b71522e8553d4c6aa10ace9
+    rel: utilities
 
 GRAPH
   banners (0.1.0)
+  pacman (1.1.1)
+  utilities (0.1.0)
+    pacman (~> 1.1.1)
